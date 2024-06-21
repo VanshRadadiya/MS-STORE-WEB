@@ -1,0 +1,70 @@
+.sliderImg {
+    height: 230px;
+    object-fit: cover;
+    background-position: center top !important;
+}
+
+.itemNumber {
+    background-color: rgba(0, 0, 0, 0.2);
+    border-bottom-right-radius: 7px;
+}
+
+.title {
+    font-size: 18px;
+    white-space: nowrap;
+}
+
+.textBox {
+    transition: 0.3s;
+    background-color: #242428;
+    font-weight: 500;
+}
+
+.details {
+    margin-top: 0.125rem !important;
+    font-size: 0.75rem;
+    color: #bdbdbd;
+    overflow: hidden;
+}
+
+#deals .item:hover {
+    transform: translateY(-3px);
+}
+#deals .item:hover .textBox {
+    background-color: #2C2C31;
+}
+#deals .item {
+    transition: 0.3s;
+    max-height: 347px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.DealHead {
+    display: inline-block;
+    transition: all 200ms ease-out 0s;
+}
+
+.DealHead:hover {
+    background-color: #353333;
+    transform: translateX(10px);
+}
+
+.DealHead:hover h5 {
+    color: #99ebff;
+}
+
+
+@media only screen and (max-width: 769px) {
+    .title {
+        font-size: 16px;
+        white-space: nowrap;
+    }
+    .details{
+        height: 35px;
+    }
+}
+.data-container{
+    width: 90%;
+    margin: auto;
+}

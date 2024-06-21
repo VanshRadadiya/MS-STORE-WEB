@@ -1,0 +1,51 @@
+.banner-text{
+    transform: translateY(-50%);
+}
+.shadow__btn {
+    padding: 7px 25px;
+    border: none;
+    font-size: 14px;
+    color: #000000;
+    border-radius: 7px;
+    font-weight: 700;
+    transition: 0.5s;
+    transition-property: box-shadow;
+  }
+  
+  .shadow__btn {
+    background: rgb(255, 255, 255);
+    box-shadow: 0 0 25px rgb(255, 255, 255);
+  }
+  
+  .shadow__btn:hover {
+    box-shadow: 0 0 5px rgb(255, 255, 255),
+                0 0 25px rgb(255, 255, 255),
+                0 0 50px rgb(255, 255, 255),
+                0 0 100px rgb(255, 255, 255);
+  }
+  @media screen and (max-width: 475px) {
+    .banner{
+      overflow: hidden;
+      border-radius: 10px !important;
+    }
+    .banner .item{
+      height: 180px !important;
+    }
+    .shadow__btn{
+      font-size: 10px;
+      padding: 5px 12px !important;
+    }
+  .banner-text h3
+  {
+      width: 100% !important; 
+      font-size: 14px;
+      font-weight: 500;
+  }
+  .banner-text p {
+    font-size: 12px;
+  }
+  }
+  .data-container{
+    width: 90%;
+    margin: auto;
+  }
